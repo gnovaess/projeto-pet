@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: var(--cor-primaria);
+    font-family: Arial, sans-serif;
+    background-color: #e2e2e2
+}
+header{
+    background-color: #ffffff71;
+    padding: 8px 5%;                   /* afastamento dos itens do cabeçalho */
+}
+
+header img{
+    width: 70px;
+    border-radius: 50px;             /* deixar um link do lado do outro */                  /* espaçamento entre os links */
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;   
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 30px;
+    width: 400px;
+    color: var(--cor-secundaria);
+}
+
+.wrapper .form-container h2 {
+    font-size: 27px;
+    color: rgb(0, 110, 255);  
+}
+
+.form-container h2 {
+    color: var(--cor-primaria);
+    font-size: 20px;
+    padding:20px 1px;
+    right: 200px;
+}
+
+.form-container label {
+    color: var(--cor-primaria);
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.form-container ul{
+    color: #000000;
+    font-size: .75rem;
+}
+
+.form-container li{
+    padding: 1% 5px;
+    display: block
+}
+
+
+.form-container list{
+    color: #000000;
+}
+
+.form-container p{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    background: none;
+    padding: 10px;
+    width: 99%;
+    border: 1px solid #b9b9b9;
+    box-shadow: none;
+    border-radius: 9px;
+    color: #000000;
+}
+
+button {
+    background-color: #000000;
+    padding: 5% 130px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 165, 80);
+    transition: 0.1s;
+}
+
+button:hover {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-tercearia);
+    transition: 0.3s;
+}
+

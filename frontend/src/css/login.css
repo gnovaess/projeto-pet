@@ -1,0 +1,132 @@
+body {
+    background-color: #e2e2e2;
+    font-family: sans-serif;
+}
+
+section {
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid rgb(255, 165, 80);
+    border-radius: 6px;
+    width: 390px;
+    height: 550px;
+    padding: 10px 15px;
+    margin: 100px auto;
+}
+
+img {
+    width: 35%;
+    height: 22%;
+    margin-bottom: 50px;
+}
+
+.input-single {
+    position: relative;
+}
+
+.input-single label {
+    position: absolute;
+    left: 10px;
+    bottom: 25px;
+    color: var(--cor-secundaria);
+    cursor: text;   
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.input-single input {
+    background-color: #2e2e2e;
+    width: 95%;
+    margin-bottom: 28px;
+    padding: 8px;
+    border: 0;
+    border-bottom: 2px solid var(--cor-tercearia);
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.822);
+    outline: 0;
+}
+
+section  a.texto{
+    color: rgb(0, 140, 255);
+    margin-left: 225px;
+    font-size: 14px;
+    text-decoration: block;
+}
+
+button {
+    position: relative;
+    color: var(--cor-secundaria);
+    padding: 10px;
+    width: 95%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--cor-tercearia);
+    background-color: transparent;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: var(--cor-tercearia); 
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.div-check-box {
+    position: relative;
+    padding: 30px;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    right: 92%;
+    margin-bottom: 0;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+}
+
+.div-check-box span{
+    position: absolute;
+    font-size: 14px;
+    top: 12px;
+    width: 45%;
+    left: 30px;
+    color: var(--cor-secundaria);
+}
+
+#social-login {
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 190px;
+    gap: 30px;
+}
+
+#social-login img {
+    width: 40px;
+    height: 40px;
+}
+
+#social-login img:hover {
+    transform: scale(1.1);
+}
+
+.label2 p {
+    
+    display: inline;
+    color: var(--cor-secundaria);
+    width: 80%;
+    padding: 199px 1%;
+}
+
+.label2 > a.criar {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.label2 .criar:hover {
+    color: var(--cor-tercearia);  
+}
